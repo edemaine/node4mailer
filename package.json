@@ -41,5 +41,8 @@
   },
   "engines": {
     "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "array-includes": "^3.0.2"
   }
 }
