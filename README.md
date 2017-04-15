@@ -6,6 +6,8 @@ to run on Node 4 (and higher), whereas official Nodemailer
 (and higher).
 Version numbers run parallel to
 [nodemailer](https://www.npmjs.com/package/nodemailer).
+See also [https://github.com/edemaine/smtp-server-node4](smtp-server-node4),
+which this depends on for testing.
 
 The modifications are by Erik Demaine, while Nodemailer itself
 is by Andris Reinman.  All distributed under the [MIT license](./LICENSE).
