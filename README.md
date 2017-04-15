@@ -4,7 +4,7 @@ node4mailer is a small modification to [nodemailer](https://nodemailer.com/)
 to run on Node 4 (and higher), whereas official Nodemailer
 [runs only on Node 6](https://nodemailer.com/about/#requirements)
 (and higher).
-Version numbers run parallel to
+Version numbers run roughly parallel to
 [nodemailer](https://www.npmjs.com/package/nodemailer).
 See also [smtp-server-node4](https://github.com/edemaine/smtp-server-node4),
 which this depends on for testing.

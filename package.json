@@ -1,6 +1,6 @@
 {
   "name": "node4mailer",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Send e-mail with Node.JS version 4",
   "main": "lib/nodemailer.js",
   "scripts": {
@@ -42,7 +42,5 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "dependencies": {
-    "array-includes": "^3.0.2"
-  }
+  "dependencies": {}
 }
