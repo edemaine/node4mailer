@@ -1,3 +1,6 @@
 {
-    "extends": "nodemailer"
+    "extends": "nodemailer",
+    "rules": {
+        "prefer-spread": 0
+    }
 }

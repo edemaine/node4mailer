@@ -1,5 +1,5 @@
 {
-  "name": "nodemailer",
+  "name": "node4mailer",
   "version": "4.0.1",
   "description": "Easy as cake e-mail sending from your Node.js applications",
   "main": "lib/nodemailer.js",
@@ -8,17 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodemailer/nodemailer.git"
+    "url": "https://github.com/edemaine/node4mailer.git"
   },
   "keywords": [
     "Nodemailer"
   ],
-  "author": "Andris Reinman",
+  "contributors": [
+    "Andris Reinman",
+    "Erik Demaine"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nodemailer/nodemailer/issues"
+    "url": "https://github.com/edemaine/node4mailer/issues"
   },
-  "homepage": "https://nodemailer.com/",
+  "homepage": "https://github.com/edemaine/node4mailer",
   "devDependencies": {
     "bunyan": "^1.8.10",
     "chai": "^3.5.0",
@@ -37,6 +40,6 @@
     "smtp-server": "^3.0.1"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=4.0.0"
   }
 }

@@ -1,3 +1,14 @@
+# node4mailer
+
+node4mailer is a small modification to [nodemailer](https://nodemailer.com/)
+to run on Node 4 (and higher), whereas official
+[nodemailer](https://nodemailer.com/) runs only on Node 6 (and higher).
+Version numbers run parallel to
+[nodemailer](https://www.npmjs.com/package/nodemailer).
+
+The modifications are by Erik Demaine, while Nodemailer itself
+is by Andris Reinman.  All distributed under the [MIT license](./LICENSE).
+
 # Nodemailer
 
 ![Nodemailer](https://raw.githubusercontent.com/nodemailer/nodemailer/master/assets/nm_logo_200x136.png)
