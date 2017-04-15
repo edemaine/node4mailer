@@ -1,7 +1,7 @@
 {
   "name": "node4mailer",
   "version": "4.0.1",
-  "description": "Easy as cake e-mail sending from your Node.js applications",
+  "description": "Send e-mail with Node.JS version 4",
   "main": "lib/nodemailer.js",
   "scripts": {
     "test": "grunt"
