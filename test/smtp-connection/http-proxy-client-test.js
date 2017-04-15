@@ -6,7 +6,7 @@
 const http = require('http');
 const proxy = require('proxy');
 const httpProxyClient = require('../../lib/smtp-connection/http-proxy-client');
-const SMTPServer = require('smtp-server').SMTPServer;
+const SMTPServer = require('smtp-server-node4').SMTPServer;
 const chai = require('chai');
 const expect = chai.expect;
 

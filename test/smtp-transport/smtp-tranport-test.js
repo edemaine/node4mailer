@@ -10,7 +10,7 @@ const net = require('net');
 const expect = chai.expect;
 const PassThrough = require('stream').PassThrough;
 const SMTPTransport = require('../../lib/smtp-transport');
-const SMTPServer = require('smtp-server').SMTPServer;
+const SMTPServer = require('smtp-server-node4').SMTPServer;
 chai.config.includeStack = true;
 
 const PORT_NUMBER = 8397;
