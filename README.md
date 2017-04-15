@@ -1,8 +1,9 @@
 # node4mailer
 
 node4mailer is a small modification to [nodemailer](https://nodemailer.com/)
-to run on Node 4 (and higher), whereas official
-[nodemailer](https://nodemailer.com/) runs only on Node 6 (and higher).
+to run on Node 4 (and higher), whereas official Nodemailer
+[runs only on Node 6](https://nodemailer.com/about/#requirements)
+(and higher).
 Version numbers run parallel to
 [nodemailer](https://www.npmjs.com/package/nodemailer).
 
