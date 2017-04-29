@@ -22,13 +22,13 @@ describe('Sendmail Unix Newlines', function () {
             done();
         });
 
-        let data = Buffer.from(source);
+        let data = new Buffer(source);
         let pos = 0;
         let writeNextByte = () => {
             if (pos >= data.length) {
                 return out.end();
             }
-            out.write(Buffer.from([data[pos++]]));
+            out.write(new Buffer([data[pos++]]));
             setImmediate(writeNextByte);
         };
 
@@ -46,7 +46,7 @@ describe('Sendmail Unix Newlines', function () {
             done();
         });
 
-        let data = Buffer.from(source);
+        let data = new Buffer(source);
         out.end(data);
     });
 

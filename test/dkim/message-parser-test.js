@@ -69,6 +69,6 @@ teine rida
             }
         });
 
-        parser.end(Buffer.from(message));
+        parser.end(new Buffer(message));
     });
 });

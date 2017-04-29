@@ -22,7 +22,7 @@ describe('DKIM RelaxedBody Tests', function () {
             message.shift();
             message = message.join('\r\n\r\n');
 
-            message = Buffer.from(message);
+            message = new Buffer(message);
 
             let s = new RelaxedBody({
                 hashAlgo: 'sha256',
@@ -39,7 +39,7 @@ describe('DKIM RelaxedBody Tests', function () {
                 if (pos >= message.length) {
                     return s.end();
                 }
-                let ord = Buffer.from([message[pos++]]);
+                let ord = new Buffer([message[pos++]]);
                 s.write(ord);
                 setImmediate(stream);
             };
@@ -57,7 +57,7 @@ describe('DKIM RelaxedBody Tests', function () {
             message.shift();
             message = message.join('\r\n\r\n');
 
-            message = Buffer.from(message);
+            message = new Buffer(message);
 
             let s = new RelaxedBody({
                 hashAlgo: 'sha256',
